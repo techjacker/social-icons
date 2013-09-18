@@ -1,11 +1,16 @@
 {
   "name": "social-icons",
   "version": "0.0.4",
-  "description": "Medicine Stats Footer",
-  "repo": "techjacker/medicinestats",
+  "description": "Social Icons",
+  "repo": "techjacker/social-icons",
   "remotes": [],
   "dependencies": {},
+  "main": "lib/main.js",
+  "scripts": [
+    "lib/main.js",
+    "tmpl/facebook.tmpl.js"
+  ],
   "styles": [
-    "css/footer.css"
+    "css/styles.css"
   ]
 }
