@@ -1,0 +1,11 @@
+{
+  "name": "social-icons",
+  "version": "0.0.4",
+  "description": "Medicine Stats Footer",
+  "repo": "techjacker/medicinestats",
+  "remotes": [],
+  "dependencies": {},
+  "styles": [
+    "css/footer.css"
+  ]
+}

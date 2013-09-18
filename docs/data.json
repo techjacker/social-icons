@@ -1,0 +1,13 @@
+{
+    "project": {
+        "name": "ms-footer",
+        "description": "Medicine Stats Footer",
+        "version": "0.1.0",
+        "url": "andy@85.119.83.8:repos/footer.git"
+    },
+    "files": {},
+    "modules": {},
+    "classes": {},
+    "classitems": [],
+    "warnings": []
+}
