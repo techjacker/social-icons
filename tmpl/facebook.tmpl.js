@@ -16,5 +16,5 @@ module.exports = function anonymous(obj) {
     return '';
   };
 
-  return "<div id=\"facebook-container\">\n	<iframe src=\"//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.medicinestats.com&amp;width=450&amp;height=46&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;send=true\" scrolling=\"no\" frameborder=\"0\" style=\"border:none; overflow:hidden; width:450px; height:46px;\" allowTransparency=\"true\"></iframe>\n</div>"
+  return "<div id=\"facebook-container\">\n	<iframe src=\"//www.facebook.com/plugins/like.php?href=http%3A%2F%2F" + escape(obj.url) + "&amp;width=80&amp;height=20&amp;colorscheme=light&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;send=true\" scrolling=\"no\" frameborder=\"0\" allowTransparency=\"true\"></iframe>\n</div>"
 }
