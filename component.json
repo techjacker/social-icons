@@ -8,7 +8,8 @@
   "main": "lib/main.js",
   "scripts": [
     "lib/main.js",
-    "tmpl/facebook.tmpl.js"
+    "tmpl/facebook-like.tmpl.js",
+    "tmpl/facebook-meta-tags.tmpl.js"
   ],
   "styles": [
     "css/styles.css"
