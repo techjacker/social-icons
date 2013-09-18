@@ -1,3 +1,12 @@
-.dummy {
+#facebook-container {
+	width:80px;
+	height:20px;
+	float:right;
+	text-align:right;
+}
 
+
+.social-icons-samerow-text {
+	line-height:20px;
+	vertical-align:middle;
 }
