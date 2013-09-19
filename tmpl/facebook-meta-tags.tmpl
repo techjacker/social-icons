@@ -1,26 +1,21 @@
-<meta property="fb:app_id"          content="1234567890" />
-<meta property="og:type"            content="social-cookbook:recipe" />
-<meta property="og:url"             content="http://samples.ogp.me/136756249803614" />
-<meta property="og:title"           content="Chocolate Pecan Pie" />
-<meta property="og:image"           content="https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-prn1/851565_496755187057665_544240989_n.jpg" />
-<meta property="cookbook:author"    content="http://samples.ogp.me/390580850990722" />
+<!-- constant -->
+<meta property="fb:app_id" content="{{fbAppId}}">
+<meta property="og:site_name" content="{{websiteName}}">
 
-<!-- homepage -->
-<meta content="Sky News for Facebook - dev" property="og:site_name">
-<meta content="http://dev.app.sky.com/" property="og:url">
-<meta content="Sky News for Facebook - dev" property="og:title">
-<meta content="First for Breaking News" property="og:description">
-<meta content="http://dev.app.sky.com/static/img/SkyNews_Logo_Square_200x200.jpg?id=1377022862" property="og:image">
+<!-- common but different -->
+<meta property="og:url" content="{{url}}">
+<meta property="og:title" content="{{pageTitle}}">
+<meta property="og:image" content="{{fbImg}}">
 
+{{#graph}}
+	<meta property="og:type" content="article">
+	<meta property="article:published_time" content="{{publishedTime}}">
+	<meta property="article:section" content="visualisations">
+{{/graph}}
 
-<!-- article -->
-<meta property="fb:app_id" content="319816014746238">
-<meta property="og:type" content="article">
-<meta property="og:url" content="http://apps.facebook.com/skynewsfbadev/article.php?id=1129766">
-<meta property="og:site_name" content="Sky News for Facebook - dev">
-<meta property="og:image" content="http://qa.scoop.bskyb.com/media/images/generated/defaults/1420/default/v0/default-web-180x180.jpg">
-<meta property="og:title" content="TEST 2">
-<meta property="og:description" content="120913 iPad At The Cinema Hannah S…">
-<meta property="article:published_time" content="2013-09-13T15:11Z">
-<meta property="article:modified_time" content="2013-09-13T15:11Z">
-<meta property="article:section" content="unknown">
+{{#homepage}}
+	<meta property="og:description" content="{{tagline}}">
+	<meta property="article:modified_time" content="{{nowtoIsoTime}}">
+	<!-- <meta property="article:modified_time" content="2013-09-13T15:11Z"> -->
+{{/homepage}}
+
