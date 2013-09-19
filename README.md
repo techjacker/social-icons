@@ -2,63 +2,16 @@
 
 Medicine Stats Footer
 
-
-[![Build Status](https://secure.travis-ci.org/techjacker/social-icons.png)](http://travis-ci.org/techjacker/social-icons)
-
-[![Sauce Labs Browser Test Status](https://saucelabs.com/buildstatus/social-icons)](https://saucelabs.com/u/social-icons)
-[![Sauce Labs Browser Test Status](https://saucelabs.com/browser-matrix/social-icons.svg)](https://saucelabs.com/u/social-icons)
-
-
-### Install
-
-#### Node
-
-```Shell
-npm install social-icons
-```
-
 #### Browser
 
 ```Shell
 component install social-icons
 ```
 
-
-## Usage
-
-#### social-icons.mixinInstanceProps(class, [classes])
-
-```JavaScript
-var myStaticClass = {};
-
-/* .mixinInstanceProps() */
-mitsubishi.mixinInstanceProps(myStaticClass, [{hello:true}, {world:true}]);
-
-console.log('myStaticClass', myStaticClass);
-// outputs: {{hello:true, world:true}
+```HTML
+<meta property="fb:app_id" content="{{fbAppId}}">
+<meta property="og:site_name" content="{{name}}">
 ```
-
-#### social-icons.mixinProtoProps(class, [classes])
-
-```JavaScript
-var myDynamicClass = function () {};
-var parentDynamicClass = function () {};
-
-parentDynamicClass.prototype.awesome = blah;
-
-mitsubishi.mixinProtoProps(myDynamicClass, [(new parentDynamicClass), {world:true}]);
-
-console.log('myDynamicClass', myDynamicClass);
-// outputs: {{awesome:"blah", world:true}
-```
-
-
-### Docs
-[Yuidocs documentation here](docs/index.html)
-- fire up the connect server ```$ grunt docs```
-- navigate your browser to the [docs](http://localhost:9001)
-
-
 ## License
 Copyright (c) 2013 Andrew Griffiths <mail@andrewgriffithsonline.com>
 
